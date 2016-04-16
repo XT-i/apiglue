@@ -1,0 +1,26 @@
+{
+  "name": "apiglue",
+  "version": "1.0.0",
+  "description": "Framework assisting API Gateway deployment in combination with AWS Lambda and other backends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XT-i/apiglue.git"
+  },
+  "engines": {
+    "node": "4.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XT-i/apiglue/issues"
+  },
+  "homepage": "https://github.com/XT-i/apiglue#readme",
+  "dependencies": {
+    "json-schema-ref-parser": "3.0.2"
+  }
+}

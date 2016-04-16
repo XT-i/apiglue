@@ -1,0 +1,6 @@
+{
+  "name": "John Doe",
+  "child": {
+    "$ref": "child.json"
+  }
+}
