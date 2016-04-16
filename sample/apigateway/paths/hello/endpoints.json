@@ -1,0 +1,10 @@
+{
+  "allOf": [
+    {
+      "$ref": "deeper/endpoints.json"
+    },
+    {
+      "$ref": "get.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "2016-02-04T18:21:31Z",
+    "title": "hello_world"
+  },
+  "host": "localhost",
+  "basePath": "/prod",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "$ref": "paths/endpoints.json"
+  },
+  "definitions": {
+    "$ref": "definitions/models.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "/world": {
+    "allOf": [
+      {
+        "$ref": "get.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "allOf": [
+    {
+      "$ref": "hello/endpoints.json"
+    },
+    {
+      "$ref": "world/endpoints.json"
+    }
+  ]
+}

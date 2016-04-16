@@ -1,0 +1,42 @@
+{
+  "produces": [
+    "application/json"
+  ],
+  "parameters": [
+    {
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/ItRequest"
+      }
+    }
+  ],
+  "responses": {
+    "200": {
+      "description": "200 response",
+      "schema": {
+        "$ref": "#/definitions/ItResponse"
+      },
+      "headers": {
+        "Access-Control-Allow-Origin": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "x-amazon-apigateway-integration": {
+    "responses": {
+      "default": {
+        "statusCode": "200",
+        "responseParameters": {
+          "method.response.header.Access-Control-Allow-Origin": "'*'"
+        }
+      }
+    },
+    "uri": "http://apidemo.eu-west-1.elasticbeanstalk.com/api/hello/{it}",
+    "httpMethod": "GET",
+    "requestParameters": {
+      "integration.request.path.it": "method.request.path.it"
+    },
+    "type": "http"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ItRequest": {
+    "$ref": "it/it-request.json"
+  },
+  "ItResponse": {
+    "$ref": "it/it-response.json"
+  }
+}
